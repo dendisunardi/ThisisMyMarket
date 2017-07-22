@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jemmycalak.thisismymarket.view.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/fragment_1"
+        android:text="Go to fragment two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"/>
+
+    <Button
+        android:id="@+id/fragment_2"
+        android:text="Go to second Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

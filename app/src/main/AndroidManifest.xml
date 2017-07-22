@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jemmycalak.thisismymarket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_camart"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="CAMART" />
+        <activity
+            android:name=".view.login"
+            android:label="LOGIN" />
+        <activity
+            android:name=".view.detail_laptop"
+            android:label="Detail Product"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".view.Input_alamat"
+            android:label="Order Product" />
+        <activity
+            android:name=".view.Payment"
+            android:label="Pembayaran"
+            android:noHistory="true" />
+        <activity
+            android:name=".view.finish"
+            android:label="Product terpesan."
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".view.register"
+            android:label="Daftar"
+            android:noHistory="true" />
+        <activity android:name=".view.pesan" />
+        <activity android:name=".view.Keranjang" />
+        <activity android:name=".view.Pengiriman"></activity>
+    </application>
+
+</manifest>
